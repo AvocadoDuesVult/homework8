@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+/* разметка */
+.container {
+    border: 2px dashed rebeccapurple;
+}
+
+.product {
+    border: 2px dashed rebeccapurple;
+    padding: 10px;
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+}
+
+.text {
+    border: 2px dashed rebeccapurple;
+    padding: 10px; 
+}
+
+.price {
+    border: 2px dashed rebeccapurple;
+    padding: 10px;
+}
+/* разметка */
+
+.container {
+    overflow: hidden;
+	width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+img:hover {
+    transition: 1s;
+}
+
+
